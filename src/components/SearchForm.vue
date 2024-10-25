@@ -4,7 +4,7 @@
       <div class="col-height col-md-2">
           <label for="datefrom">{{ labels.datefroms_label }}</label>
           <div class="input-group has-validation" :class="{'has-error': v$.datefrom.$error}">
-              <div class="date-column">
+              <div class="date-control">
                 <InputDate v-model="localData.datefrom" id="datefrom" ref="datefrom" />
                 <label class="required">*</label>
               </div>
@@ -14,7 +14,7 @@
       <div class="col-height col-md-2">
           <label for="dateto">{{ labels.datetos_label }}</label>
           <div class="input-group has-validation" :class="{'has-error': v$.dateto.$error}">
-            <div class="date-column">
+            <div class="date-control">
               <InputDate v-model="localData.dateto" id="dateto" ref="dateto" />
               <label class="required">*</label>
             </div>
