@@ -50,7 +50,6 @@
 </div>
 </template>
 <style>
-div.date-column { padding-right: 0px; display: flex; }
 #resetbutton { margin-right: 0px; }
 </style>
 <script>
