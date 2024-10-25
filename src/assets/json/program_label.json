@@ -1,0 +1,50 @@
+[
+	{
+		"language": "TH",
+		"label": [
+			{"name": "caption_title", "value": "Mail Tracking"},
+			{"name": "datefroms_label", "value": "จากวันที่"},
+			{"name": "datetos_label", "value": "ถึงวันที่"},
+			{"name": "trxstatuss_label", "value": "สถานะ"},
+			{"name": "emails_label", "value": "อีเมล"},
+			{"name": "quotables_label", "value": "หัวเรื่อง"},
+			{"name": "transtime_label", "value": "วันเวลา"},
+			{"name": "quotable_label", "value": "หัวเรื่อง"},
+			{"name": "email_label", "value": "อีเมล"},
+			{"name": "sender_label", "value": "ผู้ส่ง"},
+			{"name": "statusname_label", "value": "สถานะ"},
+			{"name": "remark_label", "value": "หมายเหตุ"},
+			{"name": "contents_label", "value": "เนื้อหา"},
+			{"name": "transtime_headerlabel", "value": "วันเวลา"},
+			{"name": "email_headerlabel", "value": "อีเมล"},
+			{"name": "quotable_headerlabel", "value": "หัวเรื่อง"},
+			{"name": "statusname_headerlabel", "value": "สถานา"},
+			{"name": "remark_headerlabel", "value": "หมายเหตุ"},
+			{"name": "refer_button", "value": "ดูรายการอ้างอิง"}
+		]
+	},
+	{
+		"language": "EN",
+		"label": [
+			{"name": "caption_title", "value": "Mail Tracking"},
+			{"name": "datefroms_label", "value": "From Date"},
+			{"name": "datetos_label", "value": "To Date"},
+			{"name": "trxstatuss_label", "value": "Status"},
+			{"name": "emails_label", "value": "Email"},
+			{"name": "quotables_label", "value": "Subject"},
+			{"name": "transtime_label", "value": "Date\/Time"},
+			{"name": "quotable_label", "value": "Subject"},
+			{"name": "email_label", "value": "Email"},
+			{"name": "sender_label", "value": "Sender"},
+			{"name": "statusname_label", "value": "Status"},
+			{"name": "remark_label", "value": "Remark"},
+			{"name": "contents_label", "value": "Contents"},
+			{"name": "transtime_headerlabel", "value": "Date\/Time"},
+			{"name": "email_headerlabel", "value": "Email"},
+			{"name": "quotable_headerlabel", "value": "Subject"},
+			{"name": "statusname_headerlabel", "value": "Status"},
+			{"name": "remark_headerlabel", "value": "Remark"},
+			{"name": "refer_button", "value": "View Refer"}
+		]
+	}
+]
