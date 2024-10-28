@@ -2,7 +2,7 @@
 <template>
   <div id="fswaitlayer" class="fa fa-spinner fa-spin"></div>
   <div class="pt-page pt-page-current pt-page-controller search-pager">
-    <PageHeader ref="pageHeader" :labels="labels" pid="vftq003" version="1.0.0" showLanguage="true" @language-changed="changeLanguage" :multiLanguages="multiLanguages" />
+    <PageHeader ref="pageHeader" :labels="labels" pid="vftq003" version="1.0.0" showLanguage="true" @language-changed="changeLanguage" :multiLanguages="multiLanguages" :build="buildVersion" />
     <SearchForm ref="searchForm" :labels="labels" :dataCategory="dataCategory" @data-select="dataSelected" />
   </div>
   <teleport to="#modaldialog">
@@ -22,6 +22,7 @@ import { getLabelModel, getMultiLanguagesModel } from "@willsofts/will-app";
 import { DEFAULT_CONTENT_TYPE, getDefaultLanguage, setDefaultLanguage, getApiUrl } from "@willsofts/will-app";
 import { startApplication, serializeParameters } from "@willsofts/will-app";
 
+const buildVersion = process.env.VUE_APP_BUILD_DATETIME;
 export default {
   components: {
     PageHeader, SearchForm, EntryForm
@@ -34,7 +35,7 @@ export default {
     let labels = ref(getLabelModel());
     let alreadyLoading = ref(false);
     const multiLanguages = ref(getMultiLanguagesModel());
-    return { multiLanguages, labels, dataCategory, dataChunk, alreadyLoading };
+    return { buildVersion, multiLanguages, labels, dataCategory, dataChunk, alreadyLoading };
   },
   mounted() {
     console.log("App: mounted ...");
