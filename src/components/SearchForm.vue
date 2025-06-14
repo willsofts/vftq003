@@ -39,8 +39,8 @@
     </div>
     <div class="row row-height">
       <div class="col-height col-md-12 pull-right text-right">
-          <button @click="searchClick" class="btn btn-dark btn-sm btn-ctrl"><i class="fa fa-search fa-btn-icon" aria-hidden="true"></i>{{ labels.search_button }}</button>
-          <button @click="resetClick" class="btn btn-dark btn-sm btn-ctrl" id="resetbutton"><i class="fa fa-refresh fa-btn-icon" aria-hidden="true"></i>{{ labels.reset_button }}</button>
+          <button id="searchbutton" @click="searchClick" class="btn btn-dark btn-sm btn-ctrl"><i class="fa fa-search fa-btn-icon" aria-hidden="true"></i>{{ labels.search_button }}</button>
+          <button id="resetbutton" @click="resetClick" class="btn btn-dark btn-sm btn-ctrl"><i class="fa fa-refresh fa-btn-icon" aria-hidden="true"></i>{{ labels.reset_button }}</button>
       </div>
     </div>
     <div id="listpanel" class="table-responsive fa-list-panel">

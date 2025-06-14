@@ -52,12 +52,13 @@
     <template v-slot:footer>
       <button ref="referbutton" id="referbutton" class="btn btn-dark btn-sm pull-left" @click="referClick" v-if="hasRefer"><em class="fa fa-eye fa-btn-icon"></em>{{ labels.refer_button }}</button>
       <button ref="resendbutton" id="resendbutton" class="btn btn-dark btn-sm" @click="resendClick" v-if="displayResend"><em class="fa fa-send fa-btn-icon"></em>{{ labels.resend_button }}</button>
-      <button class="btn btn-dark btn-sm" data-dismiss="modal"><em class="fa fa-close fa-btn-icon"></em>{{ labels.cancel_button }}</button>
+      <button id="canceldialogbutton" class="btn btn-dark btn-sm" data-dismiss="modal"><em class="fa fa-close fa-btn-icon"></em>{{ labels.cancel_button }}</button>
     </template>
   </DialogForm>
 </template>
 <style>
 #referbutton { min-width: 120px; }
+#resendbutton { min-width: 90px; }
 div.contents-mailing { overflow: auto; min-height: 250px; }
 </style>
 <script>
